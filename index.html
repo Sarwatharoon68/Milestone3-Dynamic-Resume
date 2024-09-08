@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="dynamic.css">
+</head>
+<body>
+    <header>
+        <h1>Dynamic Resume Builder By Sarwat Haroon</h1>
+    </header>
+
+    <main>
+        <section>
+            <form id="resumeForm">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="FatherName">Father's Name:</label>
+                    <input type="text" id="FatherName" name="FatherName"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone"><br>
+                    <br>
+                </fieldset>
+            
+                
+                <fieldset>
+                    <legend>Qualification</legend>
+                    <label for="qualification">Qualification:</label>
+                    <textarea id="qualification" name="qualification" rows="4"></textarea>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Experience</legend>
+                    <label for="experience">Experience:</label>
+                    <textarea id="experience" name="experience" rows="4"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Skills</legend>
+                    <label for="Skills">Skills:</label>
+                    <textarea id="Skills" name="Skills" rows="4"></textarea>
+                </fieldset>
+                
+                <button type="submit">Generate Resume Below</button>
+            </form>
+            
+            <div id="dynamicResume">
+        
+            </div>
+        </section>
+    </main>
+    
+    <script src="dynamic.js "></script>
+</body>
+</html>
